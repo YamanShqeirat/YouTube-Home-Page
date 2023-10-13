@@ -1,0 +1,50 @@
+.sidebar{
+  width: 72px;
+  position: fixed;
+  left: 0;
+  top: 55px;
+  bottom: 0;
+  border-bottom-width: 0.8px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(222, 222, 222);
+  background-color: white;
+  z-index: 200;
+  padding-top: 5px;
+} 
+.sidebar-link{
+  display: flex;
+  height: 75px;
+  font-size: 10px;
+  font-family: Roboto, Arial;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sidebar-link:hover{
+  background-color: rgb(235, 235, 235);
+  cursor: pointer;
+}
+.home-icon{
+  height: 24px;
+  margin-bottom: 4px;
+}
+.explore-icon{
+  height: 24px;
+  margin-bottom: 4px;
+}
+.subscriptions-icon{
+  height: 24px;
+  margin-bottom: 4px;
+}
+.music-icon{
+  height: 24px;
+  margin-bottom: 4px;
+}
+.library-icon{
+  height: 24px;
+  margin-bottom: 4px;
+}
+.originals-icon{
+  height: 24px;
+  margin-bottom: 4px;
+}
